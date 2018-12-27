@@ -1,9 +1,8 @@
 # Reversi
-
 Reversi website: http://www.webgamesonline.com/reversi/
 
 Setting
----------
+-------
 IDE: PyCharm 2018.3  
 Python Version: 3.6  
 Driver: Firefox (Version: 64.0)   
