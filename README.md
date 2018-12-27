@@ -1,5 +1,5 @@
 # Reversi
-Reversi website: http://www.webgamesonline.com/reversi/
+Reversi Website: http://www.webgamesonline.com/reversi/
 
 Setting
 -------
