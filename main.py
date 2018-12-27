@@ -19,6 +19,7 @@ clock = 0
 def update():
     global lasttime, clock
     crawler_chess.soup = crawler.BeautifulSoup(crawler_chess.browser.page_source, 'lxml')
+    crawler_chess.pressid('Pass')
     chessboard.turn = crawler_chess.turn()
     chessboard.inputchessboard(crawler_chess.getchessboard())
     if lasttime != 0: clock += time.perf_counter()-lasttime;

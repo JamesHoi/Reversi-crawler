@@ -25,6 +25,9 @@ class Crawler(object):
         self.browser = webdriver.Firefox()
         self.browser.get(url)
         time.sleep(2)
+        self.pressid('Pass')
+        time.sleep(3)
+        self.pressid('Undo')
 
     def getchessboard(self):
         chessboard = []
@@ -45,6 +48,9 @@ class Crawler(object):
 
     def inputchess(self,column,row):
         self.browser.find_element_by_id('I'+str(column-1)+'-'+str(row-1)).click()
+
+    def pressid(self,id):
+        self.browser.find_element_by_id(id).click()
 
     def sum_chess(self,chesstype):
         if chesstype==cb.ChessType.black: num = 1
