@@ -10,7 +10,7 @@ Libraries: Selenium  Enum [BeautifulSoup4](https://www.crummy.com/software/Beaut
 
 Result
 ---------
-![gif](https://github.com/JamesHoi/Reversi/test-video_bigger_.gif)
+![img](https://github.com/JamesHoi/Reversi/test-video_bigger_.gif)
 
 References
 ---------
