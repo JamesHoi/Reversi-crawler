@@ -1,4 +1,4 @@
-# Reversi
+# Reversi-crawler
 Reversi Website: http://www.webgamesonline.com/reversi/
 
 Setting
